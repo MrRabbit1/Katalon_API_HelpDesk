@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Company" time="4" tests="1" failures="0" errors="0">
+   <testsuite name="Company" tests="1" failures="0" errors="0" time="4" timestamp="2019-02-19 09:24:45" hostname="Ninja - AnhNVSE63446" id="Test Suites/Company">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Internship\\Tester\\TestKatalon\\test\\Reports\\Company\\20190219_092436"/>
+         <property name="logFiles" value="E:\\Internship\\Tester\\TestKatalon\\test\\Reports\\Company\\20190219_092436\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ninja - AnhNVSE63446"/>
+         <property name="hostAddress" value="192.168.175.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Company/26Company1" classname="Test Cases/Company/26Company1" status="PASSED">
+         <system-out><![CDATA[2019-02-19 09:24:45 - [TEST_CASE][PASSED] - Test Cases/Company/26Company1: Test Cases/Company/26Company1
+
+2019-02-19 09:24:46 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Company/26Company")): Send request successfully
+
+2019-02-19 09:24:49 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-19 09:24:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-02-19 09:24:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-19 09:24:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "IsError", false): Verify element property value successfully
+
+2019-02-19 09:24:49 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-19 09:24:45 - [TEST_SUITE][PASSED] - Company: Test Cases/Company/26Company1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

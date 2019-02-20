@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Agency" time="10" tests="8" failures="0" errors="4">
+   <testsuite name="Agency" tests="8" failures="0" errors="4" time="10" timestamp="2019-02-18 16:15:13" hostname="Ninja - AnhNVSE63446" id="Test Suites/Agency">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Internship\\Tester\\TestKatalon\\test\\Reports\\Agency\\20190218_161504"/>
+         <property name="logFiles" value="E:\\Internship\\Tester\\TestKatalon\\test\\Reports\\Agency\\20190218_161504\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ninja - AnhNVSE63446"/>
+         <property name="hostAddress" value="192.168.175.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Agency/28AgencyLogin1" classname="Test Cases/Agency/28AgencyLogin1" status="PASSED">
+         <system-out><![CDATA[2019-02-18 16:15:13 - [TEST_CASE][PASSED] - Test Cases/Agency/28AgencyLogin1: Test Cases/Agency/28AgencyLogin1
+
+2019-02-18 16:15:14 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Agency/28AgencyLogin")): Send request successfully
+
+2019-02-18 16:15:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-02-18 16:15:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-18 16:15:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "IsError", false): Verify element property value successfully
+
+2019-02-18 16:15:18 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/30ViewProfileAgency1" classname="Test Cases/Agency/30ViewProfileAgency1" status="PASSED">
+         <system-out><![CDATA[2019-02-18 16:15:18 - [TEST_CASE][PASSED] - Test Cases/Agency/30ViewProfileAgency1: Test Cases/Agency/30ViewProfileAgency1
+
+2019-02-18 16:15:19 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Agency/30ViewProfileAgency")): Send request successfully
+
+2019-02-18 16:15:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-02-18 16:15:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-18 16:15:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "IsError", false): Verify element property value successfully
+
+2019-02-18 16:15:19 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/31UpdateProfileAgency" classname="Test Cases/Agency/31UpdateProfileAgency" status="ERROR">
+         <error type="ERROR" message="Test Cases/Agency/31UpdateProfileAgency FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473215780
+	at 31UpdateProfileAgency.run(31UpdateProfileAgency:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-18 16:15:19 - [TEST_CASE][ERROR] - Test Cases/Agency/31UpdateProfileAgency: Test Cases/Agency/31UpdateProfileAgency FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473215780
+	at 31UpdateProfileAgency.run(31UpdateProfileAgency:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+
+
+2019-02-18 16:15:19 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Agency/31UpdateProfileAgency")): Send request successfully
+
+2019-02-18 16:15:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:19 - [TEST_STEP][ERROR] - verifyResponseStatusCode(a, 200): verifyResponseStatusCode(a, 200) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473215780
+	at 31UpdateProfileAgency.run(31UpdateProfileAgency:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+
+
+2019-02-18 16:15:20 - [MESSAGE][ERROR] - verifyResponseStatusCode(a, 200) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473215780
+	at 31UpdateProfileAgency.run(31UpdateProfileAgency:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-18 16:15:19 - [TEST_CASE][ERROR] - Test Cases/Agency/31UpdateProfileAgency: Test Cases/Agency/31UpdateProfileAgency FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473215780
+	at 31UpdateProfileAgency.run(31UpdateProfileAgency:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/32ViewAllDevice1" classname="Test Cases/Agency/32ViewAllDevice1" status="PASSED">
+         <system-out><![CDATA[2019-02-18 16:15:20 - [TEST_CASE][PASSED] - Test Cases/Agency/32ViewAllDevice1: Test Cases/Agency/32ViewAllDevice1
+
+2019-02-18 16:15:20 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Agency/32ViewAllDevice")): Send request successfully
+
+2019-02-18 16:15:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-02-18 16:15:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-18 16:15:20 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "IsError", false): Verify element property value successfully
+
+2019-02-18 16:15:20 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/33CreateRequest" classname="Test Cases/Agency/33CreateRequest" status="ERROR">
+         <error type="ERROR" message="Test Cases/Agency/33CreateRequest FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473257164
+	at 33CreateRequest.run(33CreateRequest:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-18 16:15:20 - [TEST_CASE][ERROR] - Test Cases/Agency/33CreateRequest: Test Cases/Agency/33CreateRequest FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473257164
+	at 33CreateRequest.run(33CreateRequest:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+
+
+2019-02-18 16:15:20 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Agency/33CreateRequest")): Send request successfully
+
+2019-02-18 16:15:20 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:20 - [TEST_STEP][ERROR] - verifyResponseStatusCode(a, 200): verifyResponseStatusCode(a, 200) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473257164
+	at 33CreateRequest.run(33CreateRequest:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+
+
+2019-02-18 16:15:20 - [MESSAGE][ERROR] - verifyResponseStatusCode(a, 200) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473257164
+	at 33CreateRequest.run(33CreateRequest:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-18 16:15:20 - [TEST_CASE][ERROR] - Test Cases/Agency/33CreateRequest: Test Cases/Agency/33CreateRequest FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473257164
+	at 33CreateRequest.run(33CreateRequest:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/34CreateDevice" classname="Test Cases/Agency/34CreateDevice" status="ERROR">
+         <error type="ERROR" message="Test Cases/Agency/34CreateDevice FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473299338
+	at 34CreateDevice.run(34CreateDevice:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-18 16:15:20 - [TEST_CASE][ERROR] - Test Cases/Agency/34CreateDevice: Test Cases/Agency/34CreateDevice FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473299338
+	at 34CreateDevice.run(34CreateDevice:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+
+
+2019-02-18 16:15:21 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Agency/34CreateDevice")): Send request successfully
+
+2019-02-18 16:15:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:21 - [TEST_STEP][ERROR] - verifyResponseStatusCode(a, 200): verifyResponseStatusCode(a, 200) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473299338
+	at 34CreateDevice.run(34CreateDevice:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+
+
+2019-02-18 16:15:21 - [MESSAGE][ERROR] - verifyResponseStatusCode(a, 200) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473299338
+	at 34CreateDevice.run(34CreateDevice:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-18 16:15:20 - [TEST_CASE][ERROR] - Test Cases/Agency/34CreateDevice: Test Cases/Agency/34CreateDevice FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473299338
+	at 34CreateDevice.run(34CreateDevice:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/35UpdateDevice" classname="Test Cases/Agency/35UpdateDevice" status="ERROR">
+         <error type="ERROR" message="Test Cases/Agency/35UpdateDevice FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473329887
+	at 35UpdateDevice.run(35UpdateDevice:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-18 16:15:21 - [TEST_CASE][ERROR] - Test Cases/Agency/35UpdateDevice: Test Cases/Agency/35UpdateDevice FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473329887
+	at 35UpdateDevice.run(35UpdateDevice:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+
+
+2019-02-18 16:15:21 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Agency/35UpdateDevice")): Send request successfully
+
+2019-02-18 16:15:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:21 - [TEST_STEP][ERROR] - verifyResponseStatusCode(a, 200): verifyResponseStatusCode(a, 200) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473329887
+	at 35UpdateDevice.run(35UpdateDevice:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)
+
+
+2019-02-18 16:15:21 - [MESSAGE][ERROR] - verifyResponseStatusCode(a, 200) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473329887
+	at 35UpdateDevice.run(35UpdateDevice:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-18 16:15:21 - [TEST_CASE][ERROR] - Test Cases/Agency/35UpdateDevice: Test Cases/Agency/35UpdateDevice FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: a for class: Script1550473329887
+	at 35UpdateDevice.run(35UpdateDevice:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550481309009.run(TempTestSuite1550481309009.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/36GetDeviceDetails1" classname="Test Cases/Agency/36GetDeviceDetails1" status="PASSED">
+         <system-out><![CDATA[2019-02-18 16:15:21 - [TEST_CASE][PASSED] - Test Cases/Agency/36GetDeviceDetails1: Test Cases/Agency/36GetDeviceDetails1
+
+2019-02-18 16:15:21 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Agency/36GetDeviceDetails")): Send request successfully
+
+2019-02-18 16:15:21 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-02-18 16:15:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-18 16:15:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "IsError", false): Verify element property value successfully
+
+2019-02-18 16:15:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/37GetTicketByRequestID1" classname="Test Cases/Agency/37GetTicketByRequestID1" status="PASSED">
+         <system-out><![CDATA[2019-02-18 16:15:21 - [TEST_CASE][PASSED] - Test Cases/Agency/37GetTicketByRequestID1: Test Cases/Agency/37GetTicketByRequestID1
+
+2019-02-18 16:15:22 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Agency/37GetTicketByRequestID")): Send request successfully
+
+2019-02-18 16:15:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-02-18 16:15:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-18 16:15:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "IsError", false): Verify element property value successfully
+
+2019-02-18 16:15:22 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/38GetDeviceByDeviceTypeID1" classname="Test Cases/Agency/38GetDeviceByDeviceTypeID1" status="PASSED">
+         <system-out><![CDATA[2019-02-18 16:15:22 - [TEST_CASE][PASSED] - Test Cases/Agency/38GetDeviceByDeviceTypeID1: Test Cases/Agency/38GetDeviceByDeviceTypeID1
+
+2019-02-18 16:15:22 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Agency/38GetDeviceByDeviceTypeID")): Send request successfully
+
+2019-02-18 16:15:22 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-02-18 16:15:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-18 16:15:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "IsError", false): Verify element property value successfully
+
+2019-02-18 16:15:22 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/39ServiceITSupport1" classname="Test Cases/Agency/39ServiceITSupport1" status="PASSED">
+         <system-out><![CDATA[2019-02-18 16:15:22 - [TEST_CASE][PASSED] - Test Cases/Agency/39ServiceITSupport1: Test Cases/Agency/39ServiceITSupport1
+
+2019-02-18 16:15:23 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Agency/39ServiceITSupport")): Send request successfully
+
+2019-02-18 16:15:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-18 16:15:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-02-18 16:15:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-02-18 16:15:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(a, "IsError", false): Verify element property value successfully
+
+2019-02-18 16:15:23 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Agency/40ServiceItem1" classname="Test Cases/Agency/40ServiceItem1" status="PASSED">
+         <system-out><![CDATA[2019-02-18 16:15:23 - [TEST_CASE][PASSED] - Test Cases/Agency/40ServiceItem1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-18 16:15:13 - [TEST_SUITE][INCOMPLETE] - Agency: null]]></system-out>
+      <system-err><![CDATA[2019-02-18 16:15:13 - [TEST_SUITE][INCOMPLETE] - Agency: null]]></system-err>
+   </testsuite>
+</testsuites>
