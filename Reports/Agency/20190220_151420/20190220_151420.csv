@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Agency,,,2019-02-20 15:14:28,2019-02-20 15:14:41,12.564s,FAILED
+,,,,,,
+Test Cases/Agency/28AgencyLogin1,,,2019-02-20 15:14:28,2019-02-20 15:14:34,5.071s,PASSED
+"a = sendRequest(findTestObject(""Agency/28AgencyLogin""))",,,2019-02-20 15:14:29,2019-02-20 15:14:33,3.973s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:33,2019-02-20 15:14:33,0.066s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:33,2019-02-20 15:14:34,0.183s,PASSED
+,,,,,,
+Test Cases/Agency/30ViewProfileAgency1,,,2019-02-20 15:14:34,2019-02-20 15:14:34,0.510s,PASSED
+"a = sendRequest(findTestObject(""Agency/30ViewProfileAgency""))",,,2019-02-20 15:14:34,2019-02-20 15:14:34,0.129s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:34,2019-02-20 15:14:34,0.003s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:34,2019-02-20 15:14:34,0.026s,PASSED
+,,,,,,
+Test Cases/Agency/31UpdateProfileAgency,,,2019-02-20 15:14:34,2019-02-20 15:14:35,0.596s,FAILED
+"a = sendRequest(findTestObject(""Agency/31UpdateProfileAgency""))",,,2019-02-20 15:14:34,2019-02-20 15:14:35,0.125s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:35,2019-02-20 15:14:35,0.011s,FAILED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:35,2019-02-20 15:14:35,0.061s,FAILED
+,,,,,,
+Test Cases/Agency/32ViewAllDevice1,,,2019-02-20 15:14:35,2019-02-20 15:14:35,0.473s,PASSED
+"a = sendRequest(findTestObject(""Agency/32ViewAllDevice""))",,,2019-02-20 15:14:35,2019-02-20 15:14:35,0.145s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:35,2019-02-20 15:14:35,0.003s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:35,2019-02-20 15:14:35,0.037s,PASSED
+,,,,,,
+Test Cases/Agency/33CreateRequest,,,2019-02-20 15:14:35,2019-02-20 15:14:36,0.499s,PASSED
+"a = sendRequest(findTestObject(""Agency/33CreateRequest""))",,,2019-02-20 15:14:35,2019-02-20 15:14:36,0.257s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:36,2019-02-20 15:14:36,0.003s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:36,2019-02-20 15:14:36,0.043s,PASSED
+,,,,,,
+Test Cases/Agency/34CreateDevice,,,2019-02-20 15:14:36,2019-02-20 15:14:36,0.511s,FAILED
+"a = sendRequest(findTestObject(""Agency/34CreateDevice""))",,,2019-02-20 15:14:36,2019-02-20 15:14:36,0.144s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:36,2019-02-20 15:14:36,0.003s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:36,2019-02-20 15:14:36,0.033s,FAILED
+,,,,,,
+Test Cases/Agency/35UpdateDevice,,,2019-02-20 15:14:36,2019-02-20 15:14:37,0.325s,FAILED
+"a = sendRequest(findTestObject(""Agency/35UpdateDevice""))",,,2019-02-20 15:14:36,2019-02-20 15:14:36,0.131s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:36,2019-02-20 15:14:36,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:36,2019-02-20 15:14:36,0.023s,FAILED
+,,,,,,
+Test Cases/Agency/36GetDeviceDetails1,,,2019-02-20 15:14:37,2019-02-20 15:14:37,0.325s,PASSED
+"a = sendRequest(findTestObject(""Agency/36GetDeviceDetails""))",,,2019-02-20 15:14:37,2019-02-20 15:14:37,0.081s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:37,2019-02-20 15:14:37,0.010s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:37,2019-02-20 15:14:37,0.026s,PASSED
+,,,,,,
+Test Cases/Agency/37GetTicketByRequestID1,,,2019-02-20 15:14:37,2019-02-20 15:14:37,0.328s,PASSED
+"a = sendRequest(findTestObject(""Agency/37GetTicketByRequestID""))",,,2019-02-20 15:14:37,2019-02-20 15:14:37,0.101s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:37,2019-02-20 15:14:37,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:37,2019-02-20 15:14:37,0.021s,PASSED
+,,,,,,
+Test Cases/Agency/38GetDeviceByDeviceTypeID1,,,2019-02-20 15:14:37,2019-02-20 15:14:38,0.449s,PASSED
+"a = sendRequest(findTestObject(""Agency/38GetDeviceByDeviceTypeID""))",,,2019-02-20 15:14:37,2019-02-20 15:14:38,0.117s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:38,2019-02-20 15:14:38,0.003s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:38,2019-02-20 15:14:38,0.036s,PASSED
+,,,,,,
+Test Cases/Agency/39ServiceITSupport1,,,2019-02-20 15:14:38,2019-02-20 15:14:38,0.449s,PASSED
+"a = sendRequest(findTestObject(""Agency/39ServiceITSupport""))",,,2019-02-20 15:14:38,2019-02-20 15:14:38,0.184s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:38,2019-02-20 15:14:38,0.003s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:38,2019-02-20 15:14:38,0.024s,PASSED
+,,,,,,
+Test Cases/Agency/40ServiceItem1,,,2019-02-20 15:14:38,2019-02-20 15:14:39,0.484s,PASSED
+"a = sendRequest(findTestObject(""Agency/40ServiceItem""))",,,2019-02-20 15:14:38,2019-02-20 15:14:39,0.184s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:39,2019-02-20 15:14:39,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:39,2019-02-20 15:14:39,0.033s,PASSED
+,,,,,,
+Test Cases/Agency/41DeviceInAgencyServiceGroup1,,,2019-02-20 15:14:39,2019-02-20 15:14:39,0.432s,PASSED
+"a = sendRequest(findTestObject(""Agency/41DeviceInAgencyServiceGroup""))",,,2019-02-20 15:14:39,2019-02-20 15:14:39,0.088s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:39,2019-02-20 15:14:39,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:39,2019-02-20 15:14:39,0.025s,PASSED
+,,,,,,
+Test Cases/Agency/42Dashboard1,,,2019-02-20 15:14:39,2019-02-20 15:14:39,0.437s,PASSED
+"a = sendRequest(findTestObject(""Agency/42Dashboard""))",,,2019-02-20 15:14:39,2019-02-20 15:14:39,0.128s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:39,2019-02-20 15:14:39,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:39,2019-02-20 15:14:39,0.021s,PASSED
+,,,,,,
+Test Cases/Agency/43FindITSupporterByRequestID,,,2019-02-20 15:14:39,2019-02-20 15:14:40,0.305s,FAILED
+"a = sendRequest(findTestObject(""Agency/43FindITSupporterByRequestID""))",,,2019-02-20 15:14:40,2019-02-20 15:14:40,0.061s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:40,2019-02-20 15:14:40,0.002s,FAILED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:40,2019-02-20 15:14:40,0.024s,FAILED
+,,,,,,
+Test Cases/Agency/44GetDeviceTypeByServiceID,,,2019-02-20 15:14:40,2019-02-20 15:14:40,0.327s,PASSED
+"a = sendRequest(findTestObject(""Agency/44GetDeviceTypeByServiceID""))",,,2019-02-20 15:14:40,2019-02-20 15:14:40,0.122s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-20 15:14:40,2019-02-20 15:14:40,0.003s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-20 15:14:40,2019-02-20 15:14:40,0.018s,PASSED
