@@ -1,0 +1,332 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Agency,,,2019-02-18 15:49:51,2019-02-18 15:50:12,21.096s,FAILED
+,,,,,,
+Test Cases/Agency/28AgencyLogin1,,,2019-02-18 15:49:52,2019-02-18 15:49:58,6.375s,FAILED
+"a = sendRequest(findTestObject(""Agency/28AgencyLogin""))",,,2019-02-18 15:49:53,2019-02-18 15:49:56,3.629s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:49:56,2019-02-18 15:49:56,0.071s,PASSED
+"verifyElementPropertyValue(a, "".IsError"", false)",,,2019-02-18 15:49:56,2019-02-18 15:49:57,0.242s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.AgencyId"", 3)",,,2019-02-18 15:49:57,2019-02-18 15:49:57,0.134s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.CompanyId"", 1)",,,2019-02-18 15:49:57,2019-02-18 15:49:57,0.139s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.AccountId"", 1)",,,2019-02-18 15:49:57,2019-02-18 15:49:57,0.091s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.AgencyName"", ""Passio 47 TCV"")",,,2019-02-18 15:49:57,2019-02-18 15:49:57,0.274s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.Address"", ""47 Trần Cao Vân"")",,,2019-02-18 15:49:57,2019-02-18 15:49:57,0.110s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.Telephone"", ""0966167423"")",,,2019-02-18 15:49:57,2019-02-18 15:49:57,0.042s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.CreateAt"", ""00:00 03/10/2018"")",,,2019-02-18 15:49:57,2019-02-18 15:49:57,0.062s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.UpdateAt"", ""10:53 14/01/2019"")",,,2019-02-18 15:49:57,2019-02-18 15:49:58,0.071s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.CompanyName"", ""Passio"")",,,2019-02-18 15:49:58,2019-02-18 15:49:58,0.173s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.UserName"", ""c"")",,,2019-02-18 15:49:58,2019-02-18 15:49:58,0.097s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.IsDelete"", false)",,,2019-02-18 15:49:58,2019-02-18 15:49:58,0.090s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.NumericalOrder"", 1)",,,2019-02-18 15:49:58,2019-02-18 15:49:58,0.090s,FAILED
+,,,,,,
+Test Cases/Agency/30ViewProfileAgency1,,,2019-02-18 15:49:58,2019-02-18 15:49:59,1.171s,FAILED
+"a = sendRequest(findTestObject(""Agency/30ViewProfileAgency""))",,,2019-02-18 15:49:58,2019-02-18 15:49:59,0.165s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.002s,PASSED
+"verifyElementPropertyValue(a, "".IsError"", false)",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.036s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.AgencyId"", 3)",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.044s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.CompanyId"", 1)",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.131s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.AccountId"", 1)",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.043s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.AgencyName"", ""Passio 47 TCV"")",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.042s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.Address"", ""47 Trần Cao Vân"")",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.051s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.Telephone"", ""0966167423"")",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.CreateAt"", ""00:00 03/10/2018"")",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.026s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.UpdateAt"", ""10:53 14/01/2019"")",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.035s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.CompanyName"", ""Passio"")",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.032s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.UserName"", ""c"")",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.034s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.IsDelete"", false)",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.031s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn.NumericalOrder"", 1)",,,2019-02-18 15:49:59,2019-02-18 15:49:59,0.030s,FAILED
+,,,,,,
+Test Cases/Agency/31UpdateProfileAgency,,,2019-02-18 15:49:59,2019-02-18 15:50:00,0.608s,ERROR
+"sendRequest(findTestObject(""Agency/31UpdateProfileAgency""))",,,2019-02-18 15:50:00,2019-02-18 15:50:00,0.267s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:00,2019-02-18 15:50:00,0.005s,ERROR
+,,,,,,
+Test Cases/Agency/32ViewAllDevice1,,,2019-02-18 15:50:00,2019-02-18 15:50:03,3.603s,FAILED
+"a = sendRequest(findTestObject(""Agency/32ViewAllDevice""))",,,2019-02-18 15:50:00,2019-02-18 15:50:00,0.166s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:00,2019-02-18 15:50:00,0.002s,PASSED
+"verifyElementPropertyValue(a, "".IsError"", false)",,,2019-02-18 15:50:00,2019-02-18 15:50:00,0.026s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceId"", 8)",,,2019-02-18 15:50:00,2019-02-18 15:50:00,0.038s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].AgencyId"", 17)",,,2019-02-18 15:50:00,2019-02-18 15:50:01,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceTypeId"", 4)",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.024s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceName"", ""POS Sunmi"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceCode"", ""P00DDS"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.032s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].GuarantyStartDate"", ""00:00 17/10/2018"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].GuarantyEndDate"", ""00:00 17/10/2019"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.026s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Ip"", ""6.3.11.5"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.033s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Port"", ""80"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.046s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceAccount"", ""admin"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.029s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DevicePassword"", ""admin"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.066s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].SettingDate"", ""00:00 17/10/2018"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.042s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Other"", ""sadasd"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.030s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].CreateDate"", ""00:00 10/10/2018"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.036s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].UpdateDate"", ""00:00 10/10/2018"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.039s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].CompanyName"", ""Uni space"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.032s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].AgencyName"", ""Uni deli"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.044s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].NumericalOrder"", 1)",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.105s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceId"", 21)",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.035s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].AgencyId"", 17)",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.085s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceTypeId"", 2)",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.035s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceName"", ""Camera A350"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.031s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceCode"", ""C1120CS"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.066s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].GuarantyStartDate"", ""00:00 23/10/2018"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.041s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].GuarantyEndDate"", ""00:00 24/10/2018"")",,,2019-02-18 15:50:01,2019-02-18 15:50:01,0.038s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Ip"", ""65.3.12.50"")",,,2019-02-18 15:50:01,2019-02-18 15:50:02,0.044s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Port"", ""80"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.049s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceAccount"", ""1"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DevicePassword"", ""1"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.046s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].SettingDate"", ""00:00 29/10/2018"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.031s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Other"", ""1"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].CreateDate"", ""12:04 19/10/2018"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.023s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].UpdateDate"", ""12:04 19/10/2018"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].CompanyName"", ""Uni space"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.026s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].AgencyName"", ""Uni deli"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.043s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].NumericalOrder"", 2)",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.028s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].DeviceId"", 24)",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].AgencyId"", 17)",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.040s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].DeviceTypeId"", 1)",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.033s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].DeviceName"", ""Router Toto link J15"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.033s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].DeviceCode"", ""W996SD2"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].GuarantyStartDate"", ""00:00 06/11/2018"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.029s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].GuarantyEndDate"", ""00:00 22/10/2018"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.037s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].Ip"", ""14.2.6.33"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.028s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].Port"", ""82"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.032s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].DeviceAccount"", ""1"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.028s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].DevicePassword"", ""1"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].SettingDate"", ""00:00 30/10/2018"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].Other"", ""1"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].CreateDate"", ""15:20 19/10/2018"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].UpdateDate"", ""15:20 19/10/2018"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].CompanyName"", ""Uni space"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].AgencyName"", ""Uni deli"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.028s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].NumericalOrder"", 3)",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].DeviceId"", 60)",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].AgencyId"", 17)",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.021s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].DeviceTypeId"", 2)",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].DeviceName"", ""test"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].DeviceCode"", ""12312"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.016s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].GuarantyStartDate"", ""00:00 01/01/2019"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].GuarantyEndDate"", ""00:00 30/01/2019"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].Ip"", ""172.16.123.12"")",,,2019-02-18 15:50:02,2019-02-18 15:50:02,0.018s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].Port"", ""13"")",,,2019-02-18 15:50:02,2019-02-18 15:50:03,0.021s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].DeviceAccount"", ""123"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.031s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].DevicePassword"", ""123"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.036s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].SettingDate"", ""00:00 08/01/2019"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.024s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].Other"", ""wdsdqsd"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].CreateDate"", ""16:23 16/01/2019"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].UpdateDate"", null)",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.029s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[3].CompanyName"", ""Uni space"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.021s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].AgencyName"", ""Uni deli"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.059s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].NumericalOrder"", 4)",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.028s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].DeviceId"", 63)",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.024s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].AgencyId"", 17)",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.028s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].DeviceTypeId"", 1)",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.030s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].DeviceName"", ""test2"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.039s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].DeviceCode"", ""123124"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.044s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].GuarantyStartDate"", ""00:00 01/01/2019"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.026s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].GuarantyEndDate"", ""00:00 09/02/2019"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.062s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].Ip"", ""192.123.23.12"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.068s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].Port"", ""80"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.031s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].DeviceAccount"", ""123"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.035s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].DevicePassword"", ""123"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].SettingDate"", ""00:00 11/01/2019"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].Other"", ""wdsdqsd"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.031s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].CreateDate"", ""14:18 17/01/2019"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.030s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].UpdateDate"", null)",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.038s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[4].CompanyName"", ""Uni space"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.032s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].AgencyName"", ""Uni deli"")",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.035s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[4].NumericalOrder"", 5)",,,2019-02-18 15:50:03,2019-02-18 15:50:03,0.032s,FAILED
+,,,,,,
+Test Cases/Agency/33CreateRequest,,,2019-02-18 15:50:03,2019-02-18 15:50:04,0.836s,ERROR
+"sendRequest(findTestObject(""Agency/33CreateRequest""))",,,2019-02-18 15:50:04,2019-02-18 15:50:04,0.644s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:04,2019-02-18 15:50:04,0.002s,ERROR
+,,,,,,
+Test Cases/Agency/34CreateDevice,,,2019-02-18 15:50:04,2019-02-18 15:50:05,0.330s,ERROR
+"sendRequest(findTestObject(""Agency/34CreateDevice""))",,,2019-02-18 15:50:04,2019-02-18 15:50:05,0.136s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.002s,ERROR
+,,,,,,
+Test Cases/Agency/35UpdateDevice,,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.274s,ERROR
+"sendRequest(findTestObject(""Agency/35UpdateDevice""))",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.087s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.002s,ERROR
+,,,,,,
+Test Cases/Agency/36GetDeviceDetails1,,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.246s,FAILED
+"a = sendRequest(findTestObject(""Agency/36GetDeviceDetails""))",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.061s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.001s,PASSED
+"verifyElementPropertyValue(a, "".IsError"", false)",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.021s,FAILED
+,,,,,,
+Test Cases/Agency/37GetTicketByRequestID1,,,2019-02-18 15:50:05,2019-02-18 15:50:06,0.407s,FAILED
+"a = sendRequest(findTestObject(""Agency/37GetTicketByRequestID""))",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.068s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.001s,PASSED
+"verifyElementPropertyValue(a, "".IsError"", false)",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.018s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].TicketId"", 1)",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.016s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].RequestId"", 1)",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceId"", 43)",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].ServiceItemName"", ""Wifi chậm"")",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.021s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Desciption"", ""Anh test"")",,,2019-02-18 15:50:05,2019-02-18 15:50:05,0.039s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].CreateDate"", ""09:48 16/01/2019"")",,,2019-02-18 15:50:05,2019-02-18 15:50:06,0.029s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].UpdateDate"", ""09:48 16/01/2019"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.026s,FAILED
+,,,,,,
+Test Cases/Agency/38GetDeviceByDeviceTypeID1,,,2019-02-18 15:50:06,2019-02-18 15:50:07,1.768s,FAILED
+"a = sendRequest(findTestObject(""Agency/38GetDeviceByDeviceTypeID""))",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.118s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.001s,PASSED
+"verifyElementPropertyValue(a, "".IsError"", false)",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.023s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceId"", 24)",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].AgencyId"", 17)",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceTypeId"", 1)",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.025s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceName"", ""Router Toto link J15"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceCode"", ""W996SD2"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.040s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].GuarantyStartDate"", ""00:00 06/11/2018"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.024s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].GuarantyEndDate"", ""00:00 22/10/2018"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Ip"", ""14.2.6.33"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.028s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Port"", ""82"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.033s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceAccount"", ""1"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.061s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DevicePassword"", ""1"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.029s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].SettingDate"", ""00:00 30/10/2018"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.030s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Other"", ""1"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.021s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].CreateDate"", ""15:20 19/10/2018"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.028s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].UpdateDate"", ""15:20 19/10/2018"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].CompanyName"", ""Uni space"")",,,2019-02-18 15:50:06,2019-02-18 15:50:06,0.021s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].AgencyName"", ""Uni deli"")",,,2019-02-18 15:50:06,2019-02-18 15:50:07,0.090s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].NumericalOrder"", 1)",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.038s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceId"", 63)",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.026s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].AgencyId"", 17)",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.053s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceTypeId"", 1)",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.032s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceName"", ""test2"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.025s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceCode"", ""123124"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.046s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].GuarantyStartDate"", ""00:00 01/01/2019"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.030s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].GuarantyEndDate"", ""00:00 09/02/2019"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.039s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Ip"", ""192.123.23.12"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.049s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Port"", ""80"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.026s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceAccount"", ""123"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.043s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DevicePassword"", ""123"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.041s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].SettingDate"", ""00:00 11/01/2019"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.024s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Other"", ""wdsdqsd"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.060s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].CreateDate"", ""14:18 17/01/2019"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.046s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].UpdateDate"", null)",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.041s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[1].CompanyName"", ""Uni space"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.076s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].AgencyName"", ""Uni deli"")",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.025s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].NumericalOrder"", 2)",,,2019-02-18 15:50:07,2019-02-18 15:50:07,0.066s,FAILED
+,,,,,,
+Test Cases/Agency/39ServiceITSupport1,,,2019-02-18 15:50:07,2019-02-18 15:50:08,0.868s,FAILED
+"a = sendRequest(findTestObject(""Agency/39ServiceITSupport""))",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.311s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.001s,PASSED
+"verifyElementPropertyValue(a, "".IsError"", false)",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.025s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].NumericalOrder"", 1)",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].ServiceITSupportId"", 2)",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.018s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].ServiceName"", ""CAMERA"")",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Description"", ""Sửa Camera"")",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].CreateDate"", ""00:00 10/10/2018"")",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].UpdateDate"", ""17:31 10/11/2018"")",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].NumericalOrder"", 2)",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.016s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].ServiceITSupportId"", 14)",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.029s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].ServiceName"", ""SOFTWARE"")",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Description"", ""Sửa phầm mềm cho quán"")",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.017s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].CreateDate"", ""01:58 13/11/2018"")",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].UpdateDate"", ""14:03 13/11/2018"")",,,2019-02-18 15:50:08,2019-02-18 15:50:08,0.017s,FAILED
+,,,,,,
+Test Cases/Agency/40ServiceItem1,,,2019-02-18 15:50:08,2019-02-18 15:50:09,1.115s,FAILED
+"a = sendRequest(findTestObject(""Agency/40ServiceItem""))",,,2019-02-18 15:50:08,2019-02-18 15:50:09,0.113s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.001s,PASSED
+"verifyElementPropertyValue(a, "".IsError"", false)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.023s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].NumericalOrder"", 1)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.017s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[0].ServiceId"", 1)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.019s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[0].ServiceItemId"", 1)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.023s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[0].ServiceItemName"", ""Wifi không vào được"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.018s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Description"", ""Wifi của bạn không vào được? Bạn không biết làm gì để sửa chúng! Hãy để chúng tôi giúp bạn"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.018s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[0].CreateDate"", ""00:00 03/10/2018"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.018s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].UpdateDate"", ""11:35 14/11/2018"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.021s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].ServiceName"", ""WIFI"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].NumericalOrder"", 2)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.022s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[1].ServiceId"", 1)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.020s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[1].ServiceItemId"", 6)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.029s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[1].ServiceItemName"", ""Wifi chậm"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.032s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Description"", ""Wifi bạn chậm quá! Hãy để chúng tôi giúp cho nhé"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.018s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[1].CreateDate"", ""00:00 19/10/2018"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.024s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].UpdateDate"", ""00:00 19/10/2018"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].ServiceName"", ""WIFI"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].NumericalOrder"", 3)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.026s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].ServiceId"", 1)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.024s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].ServiceItemId"", 7)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.019s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].ServiceItemName"", ""Wifi mất kết nối"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.024s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[2].Description"", null)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.028s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].CreateDate"", ""10:49 14/11/2018"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].UpdateDate"", ""12:38 21/01/2019"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[2].ServiceName"", ""WIFI"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.026s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].NumericalOrder"", 4)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.039s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[3].ServiceId"", 1)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.035s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[3].ServiceItemId"", 20)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.023s,PASSED
+"verifyElementPropertyValue(a, ""ObjReturn[3].ServiceItemName"", ""Wifi chậm"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.026s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].Description"", null)",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].CreateDate"", ""16:52 14/01/2019"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].UpdateDate"", ""15:13 17/01/2019"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.024s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[3].ServiceName"", ""WIFI"")",,,2019-02-18 15:50:09,2019-02-18 15:50:09,0.031s,FAILED
+,,,,,,
+Test Cases/Agency/41DeviceInAgencyServiceGroup1,,,2019-02-18 15:50:09,2019-02-18 15:50:11,1.220s,FAILED
+"a = sendRequest(findTestObject(""Agency/41DeviceInAgencyServiceGroup""))",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.081s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.001s,PASSED
+"verifyElementPropertyValue(a, "".IsError"", false)",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.023s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceId"", 19)",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.023s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].AgencyId"", 3)",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceTypeId"", 4)",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.039s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceName"", ""POS115"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceCode"", ""PKADS85"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.017s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].GuarantyStartDate"", ""00:00 23/10/2018"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.017s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].GuarantyEndDate"", ""00:00 31/10/2018"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.017s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Ip"", ""35.35.145.1"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.016s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Port"", ""80"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.018s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DeviceAccount"", ""1"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.015s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].DevicePassword"", ""1"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.017s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].SettingDate"", ""00:00 30/10/2018"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.015s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Other"", ""1"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.017s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].CreateDate"", ""11:04 19/10/2018"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.016s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].UpdateDate"", ""11:04 19/10/2018"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.018s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].CompanyName"", ""Passio"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.015s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].AgencyName"", ""Passio 47 TCV"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.017s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].NumericalOrder"", 1)",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.013s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceId"", 20)",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.016s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].AgencyId"", 3)",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.017s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceTypeId"", 4)",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.015s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceName"", ""Pos Sentos"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceCode"", ""PUUns20"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.029s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].GuarantyStartDate"", ""00:00 24/10/2018"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.025s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].GuarantyEndDate"", ""00:00 31/10/2018"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Ip"", ""85.3.3.15"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.024s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Port"", ""80"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DeviceAccount"", ""1"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.037s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].DevicePassword"", ""1"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.023s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].SettingDate"", ""00:00 16/10/2018"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.036s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Other"", ""1"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.024s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].CreateDate"", ""12:02 19/10/2018"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.042s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].UpdateDate"", ""12:02 19/10/2018"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.048s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].CompanyName"", ""Passio"")",,,2019-02-18 15:50:10,2019-02-18 15:50:10,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].AgencyName"", ""Passio 47 TCV"")",,,2019-02-18 15:50:10,2019-02-18 15:50:11,0.033s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].NumericalOrder"", 2)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.023s,FAILED
+,,,,,,
+Test Cases/Agency/42Dashboard1,,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.874s,FAILED
+"a = sendRequest(findTestObject(""Agency/42Dashboard""))",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.132s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.001s,PASSED
+"verifyElementPropertyValue(a, "".IsError"", false)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].ServiceId"", 2)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.021s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].ServiceName"", ""CAMERA"")",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Statuses[0].StatusId"", 5)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.022s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Statuses[0].StatusName"", ""Tạo mới"")",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Statuses[0].NumberOfStatus"", 2)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.021s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Statuses[1].StatusId"", 1)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.017s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Statuses[1].StatusName"", ""Chờ nhân viên xử lý"")",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Statuses[1].NumberOfStatus"", 1)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.034s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Statuses[2].StatusId"", 3)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.034s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Statuses[2].StatusName"", ""Hoàn thành"")",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[0].Statuses[2].NumberOfStatus"", 1)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.023s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].ServiceId"", 14)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.032s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].ServiceName"", ""SOFTWARE"")",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.027s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Statuses[0].StatusId"", 3)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.020s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Statuses[0].StatusName"", ""Hoàn thành"")",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.017s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Statuses[0].NumberOfStatus"", 5)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.046s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Statuses[1].StatusId"", 5)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.019s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Statuses[1].StatusName"", ""Tạo mới"")",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.018s,FAILED
+"verifyElementPropertyValue(a, ""ObjReturn[1].Statuses[1].NumberOfStatus"", 3)",,,2019-02-18 15:50:11,2019-02-18 15:50:11,0.020s,FAILED
+,,,,,,
+Test Cases/Agency/43FindITSupporterByRequestID,,,2019-02-18 15:50:11,2019-02-18 15:50:12,0.251s,ERROR
+"sendRequest(findTestObject(""Agency/43FindITSupporterByRequestID""))",,,2019-02-18 15:50:12,2019-02-18 15:50:12,0.069s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:12,2019-02-18 15:50:12,0.001s,ERROR
+,,,,,,
+Test Cases/Agency/44GetDeviceTypeByServiceID,,,2019-02-18 15:50:12,2019-02-18 15:50:12,0.302s,ERROR
+"sendRequest(findTestObject(""Agency/44GetDeviceTypeByServiceID""))",,,2019-02-18 15:50:12,2019-02-18 15:50:12,0.089s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 15:50:12,2019-02-18 15:50:12,0.002s,ERROR

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Company,,,2019-02-19 09:24:45,2019-02-19 09:24:49,4.690s,PASSED
+,,,,,,
+Test Cases/Company/26Company1,,,2019-02-19 09:24:45,2019-02-19 09:24:49,4.020s,PASSED
+"a = sendRequest(findTestObject(""Company/26Company""))",,,2019-02-19 09:24:46,2019-02-19 09:24:49,3.144s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-19 09:24:49,2019-02-19 09:24:49,0.062s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-19 09:24:49,2019-02-19 09:24:49,0.138s,PASSED

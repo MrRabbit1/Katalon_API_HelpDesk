@@ -1,0 +1,122 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ITSupporter,,,2019-02-18 16:47:48,2019-02-18 16:48:02,14.388s,FAILED
+,,,,,,
+Test Cases/ITSupporter/01Login1,,,2019-02-18 16:47:49,2019-02-18 16:47:52,3.082s,FAILED
+"a = sendRequest(findTestObject(""ITSupporter/01Login""))",,,2019-02-18 16:47:50,2019-02-18 16:47:51,1.660s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:51,2019-02-18 16:47:51,0.059s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:51,2019-02-18 16:47:52,0.374s,FAILED
+,,,,,,
+Test Cases/ITSupporter/02Logout,,,2019-02-18 16:47:52,2019-02-18 16:47:52,0.744s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/02Logout""))",,,2019-02-18 16:47:52,2019-02-18 16:47:52,0.127s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:52,2019-02-18 16:47:52,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:52,2019-02-18 16:47:52,0.027s,PASSED
+,,,,,,
+Test Cases/ITSupporter/03ViewProfile1,,,2019-02-18 16:47:52,2019-02-18 16:47:53,0.669s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/03ViewProfile""))",,,2019-02-18 16:47:53,2019-02-18 16:47:53,0.150s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:53,2019-02-18 16:47:53,0.004s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:53,2019-02-18 16:47:53,0.031s,PASSED
+,,,,,,
+Test Cases/ITSupporter/04UpdateTaskStatus,,,2019-02-18 16:47:53,2019-02-18 16:47:54,0.603s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/04UpdateTaskStatus""))",,,2019-02-18 16:47:54,2019-02-18 16:47:54,0.162s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:54,2019-02-18 16:47:54,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:54,2019-02-18 16:47:54,0.026s,PASSED
+,,,,,,
+Test Cases/ITSupporter/05DeleteTask,,,2019-02-18 16:47:54,2019-02-18 16:47:54,0.422s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/05DeleteTask""))",,,2019-02-18 16:47:54,2019-02-18 16:47:54,0.067s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:54,2019-02-18 16:47:54,0.005s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:54,2019-02-18 16:47:54,0.042s,PASSED
+,,,,,,
+Test Cases/ITSupporter/06UpdateProfile,,,2019-02-18 16:47:54,2019-02-18 16:47:55,0.611s,FAILED
+"a = sendRequest(findTestObject(""ITSupporter/06UpdateProfile""))",,,2019-02-18 16:47:55,2019-02-18 16:47:55,0.274s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:55,2019-02-18 16:47:55,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:55,2019-02-18 16:47:55,0.029s,FAILED
+,,,,,,
+Test Cases/ITSupporter/07CreateTask,,,2019-02-18 16:47:55,2019-02-18 16:47:55,0.486s,FAILED
+"a = sendRequest(findTestObject(""ITSupporter/07CreateTask""))",,,2019-02-18 16:47:55,2019-02-18 16:47:55,0.211s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:55,2019-02-18 16:47:55,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:55,2019-02-18 16:47:55,0.027s,FAILED
+,,,,,,
+Test Cases/ITSupporter/08CreateTaskFromGuideline,,,2019-02-18 16:47:55,2019-02-18 16:47:56,0.455s,FAILED
+"a = sendRequest(findTestObject(""ITSupporter/08CreateTaskFromGuidline""))",,,2019-02-18 16:47:56,2019-02-18 16:47:56,0.090s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:56,2019-02-18 16:47:56,0.004s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:56,2019-02-18 16:47:56,0.033s,FAILED
+,,,,,,
+Test Cases/ITSupporter/09AllTaskByRequestID1,,,2019-02-18 16:47:56,2019-02-18 16:47:56,0.392s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/09AllTaskByRequestID""))",,,2019-02-18 16:47:56,2019-02-18 16:47:56,0.064s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:56,2019-02-18 16:47:56,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:56,2019-02-18 16:47:56,0.025s,PASSED
+,,,,,,
+Test Cases/ITSupporter/10TaskByRequestTaskID1,,,2019-02-18 16:47:56,2019-02-18 16:47:57,0.716s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/10TaskByRequestTaskID""))",,,2019-02-18 16:47:57,2019-02-18 16:47:57,0.131s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:57,2019-02-18 16:47:57,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:57,2019-02-18 16:47:57,0.026s,PASSED
+,,,,,,
+Test Cases/ITSupporter/11MonitorTimeTask,,,2019-02-18 16:47:57,2019-02-18 16:47:57,0.443s,FAILED
+"a = sendRequest(findTestObject(""ITSupporter/11MonitorTimeTask""))",,,2019-02-18 16:47:57,2019-02-18 16:47:57,0.089s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:57,2019-02-18 16:47:57,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:57,2019-02-18 16:47:57,0.026s,FAILED
+,,,,,,
+Test Cases/ITSupporter/12SetPriorityTask,,,2019-02-18 16:47:57,2019-02-18 16:47:58,0.558s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/12SetPriorityTask""))",,,2019-02-18 16:47:58,2019-02-18 16:47:58,0.121s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:58,2019-02-18 16:47:58,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:58,2019-02-18 16:47:58,0.022s,PASSED
+,,,,,,
+Test Cases/ITSupporter/13ViewGuideLine1,,,2019-02-18 16:47:58,2019-02-18 16:47:58,0.375s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/13ViewGuideLine""))",,,2019-02-18 16:47:58,2019-02-18 16:47:58,0.088s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:58,2019-02-18 16:47:58,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:58,2019-02-18 16:47:58,0.019s,PASSED
+,,,,,,
+Test Cases/ITSupporter/14ViewITSupporterStatistic1,,,2019-02-18 16:47:58,2019-02-18 16:47:59,0.438s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/14ViewITSupporterStatistic""))",,,2019-02-18 16:47:59,2019-02-18 16:47:59,0.166s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:59,2019-02-18 16:47:59,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:59,2019-02-18 16:47:59,0.024s,PASSED
+,,,,,,
+Test Cases/ITSupporter/15ViewITSupporterStatisticAll1,,,2019-02-18 16:47:59,2019-02-18 16:47:59,0.491s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/15ViewITSupporterStatisticAll""))",,,2019-02-18 16:47:59,2019-02-18 16:47:59,0.216s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:47:59,2019-02-18 16:47:59,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:47:59,2019-02-18 16:47:59,0.031s,PASSED
+,,,,,,
+Test Cases/ITSupporter/16ViewITSupporterStatisticToday1,,,2019-02-18 16:47:59,2019-02-18 16:48:00,0.436s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/16ViewITSupporterStatisticToday""))",,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.116s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.010s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.046s,PASSED
+,,,,,,
+Test Cases/ITSupporter/17UpdateStatusIT,,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.270s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/17UpdateStatusIT""))",,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.061s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.015s,PASSED
+,,,,,,
+Test Cases/ITSupporter/18UpdateStartTime,,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.221s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/18UpdateStartTime""))",,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.058s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:48:00,2019-02-18 16:48:00,0.021s,PASSED
+,,,,,,
+Test Cases/ITSupporter/19UpdateEndTime,,,2019-02-18 16:48:00,2019-02-18 16:48:01,0.461s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/19UpdateEndTime""))",,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.128s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.018s,PASSED
+,,,,,,
+Test Cases/ITSupporter/20GetIsOnline,,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.256s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/20GetIsOnline""))",,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.049s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.033s,PASSED
+,,,,,,
+Test Cases/ITSupporter/21GetIsBusy,,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.236s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/21GetIsBusy""))",,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.069s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:48:01,2019-02-18 16:48:01,0.020s,PASSED
+,,,,,,
+Test Cases/ITSupporter/22UpdateIsBusyFalse,,,2019-02-18 16:48:01,2019-02-18 16:48:02,0.361s,FAILED
+"a = sendRequest(findTestObject(""ITSupporter/22UpdateIsBusyFalse""))",,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.073s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.026s,FAILED
+,,,,,,
+Test Cases/ITSupporter/23ViewAllFeedBack,,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.302s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/23ViewAllFeedBack""))",,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.087s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.001s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.017s,PASSED
+,,,,,,
+Test Cases/ITSupporter/24CheckDeviceInfoByCode1,,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.295s,PASSED
+"a = sendRequest(findTestObject(""ITSupporter/24CheckDeviceInfoByCode""))",,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.077s,PASSED
+"verifyResponseStatusCode(a, 200)",,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.002s,PASSED
+"verifyElementPropertyValue(a, ""IsError"", false)",,,2019-02-18 16:48:02,2019-02-18 16:48:02,0.021s,PASSED
